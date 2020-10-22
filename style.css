@@ -1,0 +1,74 @@
+body {
+    background-image: url("assets/double-bubble.png");
+}
+
+#header {
+    padding: 0%;
+    margin: 0%;
+}
+
+#nav {
+    background-image: url("assets/double-bubble-dark.png");
+}
+
+#button {
+    background-color: wheat;
+}
+#nav-brand {
+    color: wheat;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 18px;
+}
+
+#active { 
+    color: blue;
+    font-weight: 500;
+}
+
+#not-active {
+    color: wheat;
+    font-weight: 500;
+}
+
+
+#aboutme-img {
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+}
+
+#content{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-sizing: border-box;
+    background-color: rgb(192, 192, 192);
+    width: 600px;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 { 
+    color: rgb(40, 40, 40);
+}
+
+p { 
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(40, 40, 40);
+}
+
+footer {
+    background-image: url("assets/double-bubble-dark.png");
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: wheat;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
