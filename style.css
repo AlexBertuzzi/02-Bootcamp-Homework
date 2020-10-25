@@ -2,6 +2,7 @@ body {
     background-image: url("assets/double-bubble.png");
 }
 
+/* This section of css modifies the style of the nav bar being utilized across all of the pages. */
 #nav {
     background-image: url("assets/double-bubble-dark.png");
 }
@@ -27,6 +28,7 @@ body {
     font-weight: 500;
 }
 
+/* This section of css defines the formatting of the content box across all of the pages. */
 #content {
     border-style: solid;
     border-radius: 10px;
@@ -40,33 +42,39 @@ body {
     margin-bottom: 20%;
 }
 
+ /* This section of css defines the format of the image apearing on the index.html. */
 #aboutme-img {
     width: 200px;
     height: 200px;
     padding-right: 20px;
 }
 
+/* This section of css defines the format for the images apearing on the portfolio.html. */
 #portfolio-img {
     width: 250px;
     height: 250px;
     padding: 10px;
 }
 
+/* This section of css defines the heading within the content box across all pages. */
 h1 { 
     color: rgb(40, 40, 40);
     border-bottom-style: groove;
 }
 
+/* This section of css defines the formatting for the paragraphs apearing within the content box on the index.html. */
 p { 
     font-weight: 500;
     font-size: 15px;
     color: rgb(40, 40, 40);
 }
 
+/* This section of css adds some space below the submit button in the content box on the contact.html. */
 #submit {
     margin-bottom: 15px;
 }
 
+/* The following section of css defines the formatting for the footer section that appears on all pages. */
 footer {
     background-image: url("assets/double-bubble-dark.png");
     padding-bottom: 1px;
@@ -89,6 +97,7 @@ h3 {
     padding: 5px;
 }
 
+/* The following @media helps to set the format of the content boxes at various breakpoints. */
 @media screen and (max-width: 768px) {
     #content {
       width: 80%;
