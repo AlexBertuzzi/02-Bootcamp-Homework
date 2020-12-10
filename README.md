@@ -1,7 +1,7 @@
-# 02-Bootcamp-Homework
-This is the repository where the 02 Bootcamp Homework will be uploaded.
+# Personal-Portfolio
+This is my Personal Portfolio where I will be providing links to some of my best work and most complex projects.
 
-In this assignment I used bootstrap with html and css to create a website with three pages:
+In this project I used bootstrap with html and css to create a website with three pages:
     index.html "About Me"
     contact.html "Contact"
     portfolio.html "Portfolio"
@@ -16,4 +16,5 @@ All three pages have a consistent header with working nav bar and a consistent "
 
 The contact page includes a working form that sends an email to my personal email address utilizing "formspree.io."
 
-The portfolio page is formatted to give links to my homework assignments on github. The first portfolio has an image that links to my first homework assignment on github, more to come.
+The portfolio page is formatted to give links to my various projects on github. The portfolio page has images that link to a few of the projects I have uploaded including:
+.
