@@ -18,3 +18,5 @@ The contact page includes a working form that sends an email to my personal emai
 
 The portfolio page is formatted to give links to my various projects on github. The portfolio page has images that link to a few of the projects I have uploaded including:
 .
+
+Checkout the Deployed Application here: https://alexbertuzzi.github.io/Personal-Portfolio/
