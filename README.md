@@ -19,3 +19,7 @@ The contact page includes a working form that sends an email to my personal emai
 The portfolio page is formatted to give links to my various projects on github. The portfolio page has Project Previews with a link to a few of the projects I have uploaded including: Code Refactor, Password Generator, and Lazy Foodie App.
 
 Checkout the Deployed Application here: https://alexbertuzzi.github.io/Personal-Portfolio/
+
+![Screenshot](image1.png)
+![Screenshot](image2.png)
+![Screenshot](image3.png)
