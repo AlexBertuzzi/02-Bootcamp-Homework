@@ -16,6 +16,6 @@ All three pages have a consistent header with working nav bar and a consistent "
 
 The contact page includes a working form that sends an email to my personal email address utilizing "formspree.io."
 
-The portfolio page is formatted to give links to my various projects on github. The portfolio page has Project Previes with a link to a few of the projects I have uploaded including: Code Refactor, Password Generator, and Lazy Foodie App.
+The portfolio page is formatted to give links to my various projects on github. The portfolio page has Project Previews with a link to a few of the projects I have uploaded including: Code Refactor, Password Generator, and Lazy Foodie App.
 
 Checkout the Deployed Application here: https://alexbertuzzi.github.io/Personal-Portfolio/

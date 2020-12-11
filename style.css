@@ -61,6 +61,9 @@ h1 {
     color: rgb(40, 40, 40);
     border-bottom-style: groove;
 }
+h2 {
+    font-size: 25px
+}
 
 /* This section of css defines the formatting for the paragraphs apearing within the content box on the index.html. */
 p { 
