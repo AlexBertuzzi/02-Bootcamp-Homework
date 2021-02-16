@@ -20,6 +20,6 @@ The portfolio page is formatted to give links to my various projects on github. 
 
 Checkout the Deployed Application here: https://alexbertuzzi.github.io/Personal-Portfolio/
 
-![Screenshot](image1.png)
-![Screenshot](image2.png)
-![Screenshot](image3.png)
+![Screenshot](assets/image1.png)
+![Screenshot](assets/image2.png)
+![Screenshot](assets/image3.png)

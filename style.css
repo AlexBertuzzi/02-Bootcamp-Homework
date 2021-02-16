@@ -44,7 +44,6 @@ body {
 
  /* This section of css defines the format of the image apearing on the index.html. */
 #aboutme-img {
-    width: 200px;
     height: 200px;
     padding-right: 20px;
 }
