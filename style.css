@@ -1,31 +1,44 @@
 body {
-    background-image: url("assets/double-bubble.png");
+    background:
+    radial-gradient(#aaaaaa 15%, transparent 16%) 0 0,
+    radial-gradient(#aaaaaa 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+    background-color:#e7e7e7;
+    background-size:16px 16px;
 }
 
 /* This section of css modifies the style of the nav bar being utilized across all of the pages. */
 #nav {
-    background-image: url("assets/double-bubble-dark.png");
+    background-color: rgb(40, 40, 40);
+    background-image:
+    radial-gradient(circle at 100% 150%, rgb(40, 40, 40) 24%, #444444 24%, #444444 28%, rgb(40, 40, 40) 28%, rgb(40, 40, 40) 36%, #444444 36%, #444444 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, rgb(40, 40, 40) 24%, #444444 24%, #444444 28%, rgb(40, 40, 40) 28%, rgb(40, 40, 40) 36%, #444444 36%, #444444 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, #444444 10%, rgb(40, 40, 40) 10%, rgb(40, 40, 40) 23%, #444444 23%, #444444 30%, rgb(40, 40, 40) 30%, rgb(40, 40, 40) 43%, #444444 43%, #444444 50%, rgb(40, 40, 40) 50%, rgb(40, 40, 40) 63%, #444444 63%, #444444 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, #444444 5%, rgb(40, 40, 40) 5%, rgb(40, 40, 40) 15%, #444444 15%, #444444 20%, rgb(40, 40, 40) 20%, rgb(40, 40, 40) 29%, #444444 29%, #444444 34%, rgb(40, 40, 40) 34%, rgb(40, 40, 40) 44%, #444444 44%, #444444 49%, transparent 49%, transparent),
+    radial-gradient(circle at 0    50%, #444444 5%, rgb(40, 40, 40) 5%, rgb(40, 40, 40) 15%, #444444 15%, #444444 20%, rgb(40, 40, 40) 20%, rgb(40, 40, 40) 29%, #444444 29%, #444444 34%, rgb(40, 40, 40) 34%, rgb(40, 40, 40) 44%, #444444 44%, #444444 49%, transparent 49%, transparent);
+    background-size: 100px 50px;
 }
 
 #button {
-    background-color: wheat;
+    background-color: #e7e7e7;
 }
 
 #nav-brand {
-    color: wheat;
+    color: #e7e7e7;
     font-weight: 700;
     font-size: 30px;
     margin-left: 18px;
 }
 
 #active { 
-    color: blue;
-    font-weight: 500;
+    color: #007bff;
+    font-weight: 600;
 }
 
 #not-active {
-    color: wheat;
-    font-weight: 500;
+    color: #e7e7e7;
+    font-weight: 600;
 }
 
 /* This section of css defines the formatting of the content box across all of the pages. */
@@ -33,9 +46,9 @@ body {
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
-    border-color: black;
+    border-color: rgb(40, 40, 40);
     box-sizing: border-box;
-    background-color: rgb(192, 192, 192);
+    background-color: #e7e7e7;
     width: 600px;
     margin-left: 10%;
     margin-top: 20px;
@@ -78,7 +91,14 @@ p {
 
 /* The following section of css defines the formatting for the footer section that appears on all pages. */
 footer {
-    background-image: url("assets/double-bubble-dark.png");
+    background-color: rgb(40, 40, 40);
+    background-image:
+    radial-gradient(circle at 100% 150%, rgb(40, 40, 40) 24%, #444444 24%, #444444 28%, rgb(40, 40, 40) 28%, rgb(40, 40, 40) 36%, #444444 36%, #444444 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, rgb(40, 40, 40) 24%, #444444 24%, #444444 28%, rgb(40, 40, 40) 28%, rgb(40, 40, 40) 36%, #444444 36%, #444444 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, #444444 10%, rgb(40, 40, 40) 10%, rgb(40, 40, 40) 23%, #444444 23%, #444444 30%, rgb(40, 40, 40) 30%, rgb(40, 40, 40) 43%, #444444 43%, #444444 50%, rgb(40, 40, 40) 50%, rgb(40, 40, 40) 63%, #444444 63%, #444444 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, #444444 5%, rgb(40, 40, 40) 5%, rgb(40, 40, 40) 15%, #444444 15%, #444444 20%, rgb(40, 40, 40) 20%, rgb(40, 40, 40) 29%, #444444 29%, #444444 34%, rgb(40, 40, 40) 34%, rgb(40, 40, 40) 44%, #444444 44%, #444444 49%, transparent 49%, transparent),
+    radial-gradient(circle at 0    50%, #444444 5%, rgb(40, 40, 40) 5%, rgb(40, 40, 40) 15%, #444444 15%, #444444 20%, rgb(40, 40, 40) 20%, rgb(40, 40, 40) 29%, #444444 29%, #444444 34%, rgb(40, 40, 40) 34%, rgb(40, 40, 40) 44%, #444444 44%, #444444 49%, transparent 49%, transparent);
+    background-size: 100px 50px;
     padding-bottom: 1px;
     padding-top: 5px;
     position: sticky;
@@ -86,8 +106,8 @@ footer {
 }
 
 h3 {
-    color: wheat;
-    font-weight: 500;
+    color: #e7e7e7;
+    font-weight: 600;
     font-size: 15px;
     text-align: center;
 }
